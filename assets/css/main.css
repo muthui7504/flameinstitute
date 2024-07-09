@@ -882,7 +882,10 @@ section,
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
 }
+
 
 .about .icon-box i {
   width: 80px;
@@ -907,7 +910,9 @@ section,
 
 .about .icon-box p {
   margin-bottom: 0;
+  flex-grow: 1; /* Added */
 }
+
 .custom-list {
   list-style: none;
   padding: 0;
